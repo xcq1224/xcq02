@@ -1,0 +1,308 @@
+.handle-box {
+  background: #fff;
+  margin-bottom: 20px;
+  padding: 20px 15px 10px;
+  position: relative;
+  z-index: 10;
+}
+.handle-box .header-top {
+  margin-bottom: 10px;
+}
+.handle-box .header-top .header-name {
+  font-size: 20px;
+  font-weight: bold;
+}
+.handle-box .header-top .header-name i {
+  font-size: 22px;
+  color: #0090ff;
+}
+.handle-box .el-button--primary {
+  background: #fff;
+  color: #0090ff;
+}
+.main {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  margin-bottom: 20px;
+  padding-top: 115px;
+  box-sizing: border-box;
+  min-height: 100%;
+}
+.main .el-tabs {
+  background: #fff;
+  height: 100%;
+}
+.main .tab-item {
+  display: block;
+  width: 100px;
+  text-align: center;
+}
+.first {
+  overflow: hidden;
+  font-size: 14px;
+  padding: 20px 20px;
+}
+.first .step-box {
+  overflow: hidden;
+  margin: 0 auto 20px;
+}
+.first .step-box ul {
+  float: left;
+  width: 80%;
+  margin-left: 8%;
+  max-width: 1150px;
+}
+.first .step-box li {
+  position: relative;
+  float: left;
+  width: 20%;
+  height: 40px;
+  line-height: 38px;
+  text-align: center;
+  box-sizing: border-box;
+  border-top: 1px solid #d0d0d0;
+  border-bottom: 1px solid #d0d0d0;
+}
+.first .step-box li:first-of-type {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-left: 1px solid #d0d0d0;
+}
+.first .step-box li:last-of-type {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-right: 1px solid #d0d0d0;
+}
+.first .step-box li:not(:last-of-type):before {
+  position: absolute;
+  top: 0;
+  right: -15px;
+  content: '';
+  display: block;
+  border-left: 16px solid #fff;
+  border-top: 19px solid transparent;
+  border-bottom: 19px solid transparent;
+  z-index: 5;
+}
+.first .step-box li:not(:last-of-type):after {
+  position: absolute;
+  top: 0;
+  right: -16px;
+  content: '';
+  display: block;
+  border-left: 16px solid #d0d0d0;
+  border-top: 19px solid transparent;
+  border-bottom: 19px solid transparent;
+  z-index: 4;
+}
+.first .step-box li.actived {
+  background: #0090ff;
+  color: #fff;
+  border-color: #0090ff;
+}
+.first .step-box li.actived:before {
+  border-left-color: #0090ff;
+}
+.first .step-box li.actived:after {
+  border-left-color: #fff;
+}
+.first .step-box li.active {
+  border-color: #0090ff;
+}
+.first .step-box li.active:after {
+  border-left-color: #0090ff;
+}
+.first .step-box span {
+  float: left;
+  width: 40px;
+  height: 40px;
+  background: #ccc;
+  color: #fff;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 50%;
+  margin-left: 30px;
+  cursor: pointer;
+}
+.first .first-left {
+  width: 50%;
+  margin: 0 2% 0 1%;
+  max-width: 700px;
+  float: left;
+  border: 1px solid #ebeef5;
+}
+.first .first-left .el-form {
+  padding-top: 15px;
+}
+.first .first-left .el-form-item {
+  margin-bottom: 10px;
+}
+.first .first-left .el-input,
+.first .first-left .el-select,
+.first .first-left .el-textarea,
+.first .first-left .el-cascader {
+  width: 330px;
+}
+.first .first-left .el-tag {
+  margin-right: 5px;
+  color: #fafafa;
+  background: #409EFF;
+}
+.first .first-left .el-tag .el-icon-close {
+  color: #fff;
+}
+.first .title {
+  height: 40px;
+  background: #f2f2f2;
+  line-height: 40px;
+  padding: 0 15px;
+}
+.first .first-right {
+  width: 45%;
+  max-width: 680px;
+  float: left;
+  border: 1px solid #ebeef5;
+}
+.first .first-right .process {
+  border-left: 1px solid #ddd;
+  padding: 20px 7px;
+  margin: 0 0 20px 60px;
+}
+.first .first-right .tooltip {
+  width: 80%;
+  margin-bottom: 40px;
+  position: relative;
+}
+.first .first-right .tooltip:before {
+  position: absolute;
+  left: -30px;
+  top: 9px;
+  display: block;
+  content: '\E66E';
+  background: #0090ff;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+  line-height: 20px;
+}
+.first .first-right .tooltip .time {
+  float: right;
+  color: #ccc;
+  font-size: 14px;
+}
+.first .first-right .tooltip.date {
+  width: 80px;
+  background: #0090ff;
+  height: 16px;
+  padding: 8px 0;
+  text-align: center;
+}
+.first .first-right .tooltip.date .el-popover__title {
+  color: #fff;
+}
+.first .first-right .tooltip.date .popper__arrow::after {
+  border-right-color: #0090ff;
+}
+.first .first-right .tooltip.date:before {
+  content: '';
+  width: 12px;
+  height: 12px;
+  left: -26px;
+  top: 12px;
+}
+.dialogAdd .el-input,
+.dialogContract .el-input,
+.dialogTransfer .el-input,
+.dialogEdit .el-input,
+.dialogAdd .el-select,
+.dialogContract .el-select,
+.dialogTransfer .el-select,
+.dialogEdit .el-select,
+.dialogAdd .el-textarea,
+.dialogContract .el-textarea,
+.dialogTransfer .el-textarea,
+.dialogEdit .el-textarea {
+  width: 330px;
+}
+.second {
+  padding-top: 20px;
+}
+.second .el-input,
+.second .el-select,
+.second .el-textarea,
+.second .el-cascader {
+  width: 330px;
+  margin-right: 60px;
+}
+.third {
+  padding-top: 20px;
+}
+.third .box-card {
+  width: 30%;
+  margin: 0 1.5%;
+  float: left;
+  font-size: 14px;
+  position: relative;
+}
+.third .box-card .del {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: #ccc;
+  border-radius: 50%;
+  color: #fff;
+  text-align: center;
+  line-height: 18px;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.third .box-card .avatar {
+  text-align: center;
+}
+.third .box-card .tip {
+  color: #0090ff;
+  font-weight: bold;
+}
+.third .box-card .tip:nth-of-type(2) {
+  margin-bottom: 15px;
+}
+.third .box-card .el-tag {
+  margin: 5px;
+}
+.third .box-card a {
+  color: #0090ff;
+  font-size: 15px;
+  display: block;
+  margin-top: 15px;
+}
+.third .box-card .time {
+  text-align: right;
+  color: #ccc;
+}
+.fourth,
+.fifth,
+.sixth,
+.seventh {
+  padding: 20px 10px;
+}
+.operating {
+  color: #0090ff;
+  margin: 0 10px;
+}
+.addChance .el-input,
+.addContract .el-input,
+.transferOthers .el-input,
+.addChance .el-select,
+.addContract .el-select,
+.transferOthers .el-select,
+.addChance .el-textarea,
+.addContract .el-textarea,
+.transferOthers .el-textarea {
+  width: 330px;
+}

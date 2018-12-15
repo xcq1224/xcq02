@@ -1,0 +1,40 @@
+.query-form .el-input,
+.query-form .el-select,
+.query-form .el-date-picker {
+  width: 250px;
+  margin-right: 30px;
+}
+.dialogAdd .el-input,
+.dialogAdd .el-cascader,
+.dialogAdd .el-select,
+.dialogAdd .el-textarea {
+  width: 400px;
+}
+.mergeTable {
+  margin-top: 20px;
+}
+.mergeTable td {
+  background: #fff;
+}
+.mergeTable td:first-of-type {
+  text-align: center;
+}
+.mergeTable td:not(:first-of-type) {
+  padding-left: 20px;
+}
+.dialogImport p {
+  margin-bottom: 5px;
+}
+.dialogImport .dialog-footer {
+  margin-top: 30px;
+}
+.dialogImport .download {
+  color: #0090ff;
+  text-decoration: underline;
+}
+.dialogImport .import-history {
+  float: left;
+  line-height: 40px;
+  font-size: 15px;
+  color: #0090ff;
+}

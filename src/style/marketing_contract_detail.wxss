@@ -1,0 +1,163 @@
+.handle-box {
+  background: #fff;
+  padding: 20px 15px 10px;
+  position: relative;
+  z-index: 10;
+}
+.handle-box .header-top {
+  margin-bottom: 10px;
+}
+.handle-box .header-top .header-name {
+  font-size: 20px;
+  font-weight: bold;
+}
+.handle-box .header-top .header-name i {
+  font-size: 22px;
+  color: #0090ff;
+}
+.handle-box .el-button--primary {
+  background: #fff;
+  color: #0090ff;
+}
+.main .el-tabs {
+  background: #fff;
+  height: 100%;
+}
+.main .tab-item {
+  display: block;
+  width: 100px;
+  text-align: center;
+}
+.first {
+  overflow: hidden;
+  font-size: 14px;
+  padding: 20px 20px;
+}
+.first .first-left-box {
+  float: left;
+  width: 50%;
+  margin: 0 2% 0 1%;
+  max-width: 700px;
+}
+.first .first-left {
+  border: 1px solid #ebeef5;
+}
+.first .first-left .el-form {
+  padding-top: 15px;
+}
+.first .first-left .el-form-item {
+  margin-bottom: 10px;
+}
+.first .first-left .el-input,
+.first .first-left .el-select,
+.first .first-left .el-textarea,
+.first .first-left .el-cascader {
+  width: 330px;
+}
+.first .first-left .el-tag {
+  margin-right: 5px;
+  color: #fafafa;
+  background: #409EFF;
+}
+.first .first-left .el-tag .el-icon-close {
+  color: #fff;
+}
+.first .title {
+  height: 40px;
+  background: #f2f2f2;
+  line-height: 40px;
+  padding: 0 15px;
+}
+.first .first-right {
+  width: 45%;
+  max-width: 680px;
+  float: left;
+  border: 1px solid #ebeef5;
+}
+.first .first-right .process {
+  border-left: 1px solid #ddd;
+  padding: 20px 7px;
+  margin: 0 0 20px 60px;
+}
+.first .first-right .tooltip {
+  width: 80%;
+  margin-bottom: 40px;
+  position: relative;
+}
+.first .first-right .tooltip:before {
+  position: absolute;
+  left: -30px;
+  top: 9px;
+  display: block;
+  content: '\E66E';
+  background: #0090ff;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 12px;
+  text-align: center;
+  line-height: 20px;
+}
+.first .first-right .tooltip .time {
+  float: right;
+  color: #ccc;
+  font-size: 14px;
+}
+.first .first-right .tooltip.date {
+  width: 80px;
+  background: #0090ff;
+  height: 16px;
+  padding: 8px 0;
+  text-align: center;
+}
+.first .first-right .tooltip.date .el-popover__title {
+  color: #fff;
+}
+.first .first-right .tooltip.date .popper__arrow::after {
+  border-right-color: #0090ff;
+}
+.first .first-right .tooltip.date:before {
+  content: '';
+  width: 12px;
+  height: 12px;
+  left: -26px;
+  top: 12px;
+}
+.second,
+.third {
+  padding: 20px;
+}
+.second > .el-button,
+.third > .el-button {
+  margin: 20px 0;
+}
+.fourth,
+.fifth {
+  padding: 20px;
+}
+.operating {
+  color: #0090ff;
+  margin: 0 10px;
+}
+.operating.iconfont {
+  font-size: 20px;
+  margin: 0 5px;
+}
+.dialogReceipt .el-input,
+.dialogInvoicing .el-input,
+.dialogTransfer .el-input,
+.dialogEdit .el-input,
+.dialogDeploy .el-input,
+.dialogReceipt .el-select,
+.dialogInvoicing .el-select,
+.dialogTransfer .el-select,
+.dialogEdit .el-select,
+.dialogDeploy .el-select,
+.dialogReceipt .el-textarea,
+.dialogInvoicing .el-textarea,
+.dialogTransfer .el-textarea,
+.dialogEdit .el-textarea,
+.dialogDeploy .el-textarea {
+  width: 330px;
+}

@@ -1,0 +1,147 @@
+.handle-box{
+    background: #fff;
+    padding: 20px 15px 10px;
+    position: relative;
+    z-index: 10;
+    .header-top{
+        margin-bottom: 10px;
+        .header-name{
+            font-size: 20px;
+            font-weight: bold;
+            i{
+                font-size: 22px;
+                color: #0090ff;
+            }
+        }
+    }
+    .el-button--primary{
+        background: #fff;
+        color: #0090ff;
+    }
+}
+.main{
+    .el-tabs{
+        background: #fff;
+        height: 100%;
+    }
+    .tab-item{
+        display: block;
+        width: 100px;
+        text-align: center;
+    }
+}
+.first{
+    overflow: hidden;
+    font-size: 14px;
+    padding: 20px 20px;
+    .first-left-box{
+        float: left;
+        width: 50%;
+        margin: 0 2% 0 1%;
+        max-width: 700px;
+    }
+    .first-left{
+        border: 1px solid #ebeef5;
+        .el-form{
+            padding-top: 15px;
+        }
+        .el-form-item{
+            margin-bottom: 10px;
+        }
+        .el-input, .el-select, .el-textarea, .el-cascader{
+            width: 330px;
+        }
+        .el-tag{
+            margin-right: 5px;
+            color: #fafafa;
+            background: #409EFF;
+        }
+        .el-tag .el-icon-close{
+            color: #fff;
+        }
+    }
+    .title{
+        height: 40px;
+        background: #f2f2f2;
+        line-height: 40px;
+        padding: 0 15px;
+    }
+    .first-right{
+        width: 45%;
+        max-width: 680px;
+        float: left;
+        border: 1px solid #ebeef5;
+        .process{
+            border-left: 1px solid #ddd;
+            padding: 20px 7px;
+            margin: 0 0 20px 60px;
+        }
+        .tooltip{
+            width: 80%; 
+            margin-bottom: 40px;
+            position: relative;
+            &:before{
+                position: absolute;
+                left: -30px;
+                top: 9px;
+                display: block;
+                content: '\E66E';
+                background: #0090ff;
+                width: 20px;
+                height: 20px;
+                border-radius: 50%;
+                color: #fff;
+                font-size: 12px;
+                text-align: center;
+                line-height: 20px;
+            }
+            .time{
+                float: right;
+                color: #ccc;
+                font-size: 14px;
+            }
+        }
+        .tooltip.date{
+            width: 80px;
+            background: #0090ff;
+            height: 16px;
+            padding: 8px 0;
+            text-align: center;
+            .el-popover__title{
+                color: #fff;
+            }
+            .popper__arrow::after{
+                border-right-color: #0090ff;
+            }
+            &:before{
+                content: '';
+                width: 12px;
+                height: 12px;
+                left: -26px;
+                top: 12px;
+            }
+        }
+    }
+}
+.second, .third{
+    padding: 20px;
+    >.el-button{
+        margin: 20px 0;
+    }
+}
+.fourth, .fifth{
+    padding: 20px;
+}
+.operating{
+    color: #0090ff;
+    margin: 0 10px;
+    &.iconfont{
+        font-size: 20px;
+        margin: 0 5px;
+    }
+}
+.dialogReceipt, .dialogInvoicing, .dialogTransfer, .dialogEdit, .dialogDeploy{
+    .el-input, .el-select, .el-textarea{
+        width: 330px;
+    }
+}

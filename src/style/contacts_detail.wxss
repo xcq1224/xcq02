@@ -1,0 +1,183 @@
+.wrap {
+  position: relative;
+  min-width: 1100px;
+  min-height: 100%;
+  overflow: auto;
+  padding-top: 20px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.header {
+  background: #fff;
+  margin-bottom: 20px;
+  padding: 20px 15px 10px;
+  position: relative;
+  z-index: 10;
+}
+.header .header-top {
+  margin-bottom: 10px;
+}
+.header .header-top .header-name {
+  font-size: 20px;
+  font-weight: bold;
+}
+.header .header-top .header-name i {
+  font-size: 22px;
+  color: #0090ff;
+}
+.header .el-button--primary {
+  background: #fff;
+  color: #0090ff;
+}
+.main {
+  position: relative;
+  box-sizing: border-box;
+  min-height: 100%;
+  margin-bottom: 20px;
+}
+.main .el-tabs {
+  background: #fff;
+  height: 100%;
+}
+.main .tab-item {
+  display: block;
+  width: 100px;
+  text-align: center;
+}
+.first {
+  overflow: hidden;
+  font-size: 14px;
+  padding: 20px 20px;
+  max-width: 1400px;
+}
+.third {
+  padding-top: 20px;
+}
+.third .el-button {
+  margin: 0 20px 15px;
+}
+.third .box-card-list {
+  overflow: hidden;
+  padding-bottom: 20px;
+}
+.third .box-card {
+  width: 30%;
+  margin: 0 1.5%;
+  float: left;
+  font-size: 14px;
+  position: relative;
+}
+.third .box-card .del {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: #ccc;
+  border-radius: 50%;
+  color: #fff;
+  text-align: center;
+  line-height: 18px;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.third .box-card p {
+  display: flex;
+  line-height: 20px;
+  padding: 4px 0;
+}
+.third .box-card p .label {
+  width: 100px;
+}
+.third .box-card p .content {
+  flex: 1;
+}
+.third .box-card .avatar {
+  text-align: center;
+}
+.third .box-card .tip {
+  color: #0090ff;
+  font-weight: bold;
+}
+.third .box-card .tip:nth-of-type(2) {
+  margin-bottom: 15px;
+}
+.third .box-card .el-tag {
+  margin: 5px;
+}
+.third .box-card a {
+  color: #0090ff;
+  font-size: 15px;
+  display: block;
+  margin-top: 15px;
+}
+.third .box-card .time {
+  text-align: right;
+  color: #ccc;
+}
+.second,
+.fourth,
+.fifth {
+  padding: 20px 10px;
+}
+.operating {
+  color: #0090ff;
+  margin: 0 10px;
+}
+.relateInfo .el-input,
+.addChance .el-input,
+.dialogEdit .el-input,
+.transferOthers .el-input,
+.relateInfo .el-select,
+.addChance .el-select,
+.dialogEdit .el-select,
+.transferOthers .el-select,
+.relateInfo .el-textarea,
+.addChance .el-textarea,
+.dialogEdit .el-textarea,
+.transferOthers .el-textarea {
+  width: 330px;
+}
+.form .el-form-item {
+  width: 520px;
+}
+.form .el-input,
+.form .el-cascader,
+.form .el-select,
+.form .el-textarea {
+  width: 330px;
+}
+.form .upload-box {
+  border: 1px solid #ddd;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  cursor: pointer;
+}
+.form .upload-box.active {
+  background: #f5f7fa;
+  cursor: inherit;
+}
+.form .upload-box i {
+  font-size: 30px;
+  line-height: 60px;
+  color: #ddd;
+}
+.form .upload-box img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.form .el-tag {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.form .button-new-tag {
+  height: 32px;
+  line-height: 30px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.form .input-new-tag {
+  width: 90px !important;
+  vertical-align: top;
+}
